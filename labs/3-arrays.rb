@@ -14,3 +14,8 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shopping_lists = [["milk", "eggs", "bacon"], ["beer", "bacon", "cookies","apples"]]
+puts shopping_lists.uniq.sort
+
+

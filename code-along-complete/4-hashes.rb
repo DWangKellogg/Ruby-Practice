@@ -12,7 +12,8 @@
 # Let's start easy... let's define a simple hash that represents a social media profile:
 me = { name: "Ben", location: "Chicago", status: "ENTR-924 at Kellogg!" };
 puts me
-
+name = me[:name]
+puts name # Ben
 # Accessing data from the hash
 
 # Now that the hash is defined, we can access the attributes:
